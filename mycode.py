@@ -41,7 +41,7 @@ class Person:
         self.name = name
         self.age = age
 
-    def info(self):
+    def information(self):
         """
         Returns a string containing a greeting with the person's name and age.
 
@@ -64,4 +64,4 @@ class Person:
         return f"Person(name={self.name}, age={self.age})"
 
 person1 = Person("Alice", 30)
-print(person1.info())
+print(person1.information())
